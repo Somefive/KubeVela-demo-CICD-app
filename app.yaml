@@ -2,10 +2,10 @@
 apiVersion: core.oam.dev/v1beta1
 kind: Application
 metadata:
-  name: KubeVela-demo-CICD-app
+  name: kubevela-demo-CICD-app
 spec:
   components:
-    - name: KubeVela-demo-CICD-app-web
+    - name: kubevela-demo-CICD-app-web
       type: webservice
       properties:
         image: somefive/kubevela-demo-cicd-app
